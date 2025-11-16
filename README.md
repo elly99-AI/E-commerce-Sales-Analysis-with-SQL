@@ -1,4 +1,4 @@
-# E-commerce Sales Analysis with SQL
+# E-commerce Sales Analysis with MySQL
 
 ## Description
 This project uses a **relational SQL database** to analyze sales data from an e-commerce platform.  
