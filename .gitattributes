@@ -1,6 +1,5 @@
 *.sql linguist-language=SQL
 *.md linguist-documentation=true
-*.txt linguist-documentation=true
-*.LICENSE linguist-documentation=true
-
+LICENSE linguist-documentation=true
+.gitignore linguist-generated=true
 
