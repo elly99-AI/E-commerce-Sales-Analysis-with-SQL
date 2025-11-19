@@ -1,5 +1,7 @@
 # E-commerce Sales Analysis with SQL
 
+Project developed during the Master in AI Developer at Profession AI
+
 ## Description
 This project uses a **relational SQL database** to analyze sales data from an e-commerce platform.  
 The goal is to extract useful insights to support business decision-making, identifying top customers, best-selling products, temporal trends, and order characteristics.
