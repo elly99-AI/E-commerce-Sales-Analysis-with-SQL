@@ -27,11 +27,12 @@ GROUP BY prodotto.nome
 ORDER BY fatturato_totale DESC;
 
 #analisi temporale: calcolo del fatturato totale per giorno della settimana
-SELECT DAYNAME(ordini.data) AS giorno_settimana, AVG(prodotto.prezzo) AS fatturato_medio
+SELECT DAYNAME(ordini.data) AS giorno_settimana, 
+    SUM(prodotto.prezzo) AS fatturato_totale_giorno 
 FROM ordini
 JOIN prodotto ON ordini.id_prodotto = prodotto.id
 GROUP BY giorno_settimana
-ORDER BY fatturato_medio DESC;
+ORDER BY fatturato_totale_giorno DESC;
 
 # analisi degli ordini: numero medio di prodotti per ordine
 SELECT AVG(num_prodotti) AS media_prodotti_per_ordine
